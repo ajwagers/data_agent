@@ -2,7 +2,7 @@ import requests
 import json
 
 def generate_ollama_response(prompt, model="tinyllama",stream=True):
-    url = "http://192.168.0.202:11434/api/chat"
+    url = "http://localhost:11434/api/chat"
     
     payload = {
         "model": model,
